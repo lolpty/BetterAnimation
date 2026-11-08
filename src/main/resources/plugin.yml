@@ -1,0 +1,14 @@
+name: BetterAnimation
+version: 1.0.0
+main: ru.betteranimation.BetterAnimation
+api-version: '1.21.4'
+folia-supported: true
+description: Import Blockbench models and play animations with automatically rebuilt resource packs.
+commands:
+  betteranimation:
+    aliases: [ba]
+    description: Manage models, animations and the generated pack
+    permission: betteranimation.admin
+permissions:
+  betteranimation.admin:
+    default: op
